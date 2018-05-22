@@ -30,10 +30,13 @@ generateRaster <- function(f, res) {
         bg="transparent")
     ## Recreate viewport tree on sub-device
     pushViewport(cvp)
+    if (depth(cvp) > 1) {
+        upViewport(depth(cvp)  -1 )
+    }
     ## Call function to draw raster content
     tryCatch(f(),
              finally={ dev.off(); dev.set(dev) })
-    raster <- readPNG(pngfile)
+    readPNG(pngfile)
 }
 
 ## Capture the output from a function in the current viewport
