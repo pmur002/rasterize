@@ -1,0 +1,9 @@
+
+importFrom("grDevices", "png")
+importFrom("png", "readPNG")
+
+export("grid.rasterize")
+
+S3method("grid.rasterize", "function")
+S3method("grid.rasterize", "character")
+S3method("grid.rasterize", "gPath")

@@ -1,0 +1,12 @@
+Package: rasterize
+Type: Package
+Title: Rasterize Graphical Output
+Version: 0.1
+Author: Paul Murrell
+Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
+Description: Provides R functions to selectively rasterize components
+             of 'grid' output.  
+Depends: grid
+Imports: grDevices, png
+ByteCompile: TRUE
+License: file LICENSE
