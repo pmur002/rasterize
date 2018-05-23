@@ -1,5 +1,6 @@
 
-importFrom("grDevices", "png")
+import("grid")
+importFrom("grDevices", "png", "dev.cur", "dev.off", "dev.set")
 importFrom("png", "readPNG")
 
 export("grid.rasterize")
