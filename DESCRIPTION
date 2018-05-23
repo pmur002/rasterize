@@ -9,4 +9,4 @@ Description: Provides R functions to selectively rasterize components
 Depends: grid
 Imports: grDevices, png
 ByteCompile: TRUE
-License: file LICENSE
+License: GPL-3
