@@ -9,4 +9,5 @@ Description: Provides R functions to selectively rasterize components
 Depends: grid
 Imports: grDevices, png
 ByteCompile: TRUE
+URL: https://github.com/pmur002/rasterize, https://stattech.wordpress.fos.auckland.ac.nz/2018/05/25/2018-05-selective-raster-graphics/
 License: GPL-3
